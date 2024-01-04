@@ -1,3 +1,6 @@
+from .models import LikePost, LikeComment
 from django.contrib import admin
 
-# Register your models here.
+
+admin.site.register(LikePost)
+admin.site.register(LikeComment)
