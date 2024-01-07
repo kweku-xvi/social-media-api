@@ -85,5 +85,3 @@ def unfollow_user_view(request, uid:str):
                 'message':f'You have unfollowed {follow.user.username}'
             }, status=status.HTTP_200_OK
         )
-
-# todo : add docs
