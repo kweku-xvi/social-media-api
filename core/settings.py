@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'posts',
     'likes',
     'following',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
